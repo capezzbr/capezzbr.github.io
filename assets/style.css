@@ -13,12 +13,13 @@ html, body {
 #avatar {
   width: 128px;
   height: 128px;
-  border-radius:         50%;
-  -moz-border-radius:    50%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   background: #eeeeee url('../assets/avatar.jpeg') no-repeat;
   background-size: 128px 128px;
   border: 1px solid #eeeeee;
+  z-index: -10;
 }
 
 #info-name {
@@ -43,6 +44,7 @@ html, body {
 #tweets {
    float: left;
 	width: 400px;
+	z-index: 10;
 }
 
 #content {
