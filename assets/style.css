@@ -1,0 +1,69 @@
+html, body {
+  font: 200 27px/45px 'Raleway', sans-serif;
+  background-color: #fafafa;
+  color: #444;
+  overflow: none;
+}
+
+#main {
+  width: 960px;
+  margin: 50px;
+}
+
+#avatar {
+  width: 128px;
+  height: 128px;
+  border-radius:         50%;
+  -moz-border-radius:    50%;
+  -webkit-border-radius: 50%;
+  background: #eeeeee url('../assets/avatar.jpeg') no-repeat;
+  background-size: 128px 128px;
+  border: 1px solid #eeeeee;
+}
+
+#info-name {
+	position: relative;
+	padding: 10px;
+	width: 300px;
+	top:  -130px;
+	left: 132px;
+}
+
+#info-content {
+	position: relative;
+	top: -130px;
+	width: 450px;
+}
+
+.small-text {
+  font: 200 22px/45px 'Raleway', sans-serif;
+  color: #66757f;
+}
+
+#tweets {
+   float: left;
+	width: 400px;
+}
+
+#content {
+	padding: 50px;
+	width: 400px;
+	height: 500px;
+  	float: right;
+  	background-color: f1f1f1;
+}
+
+a, a:visited {
+  color: #d23;
+  text-decoration: none;
+  -webkit-transition: color 0.15s linear;
+  -moz-transition: color 0.15s linear;
+  border-bottom: 1px dotted #fcc;
+}
+
+a:hover {
+  color: #f78;
+}
+
+
+
